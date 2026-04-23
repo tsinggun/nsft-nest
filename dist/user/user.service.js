@@ -13,7 +13,6 @@ let UserService = class UserService {
         return 'getUserList';
     }
     createUser(user) {
-        console.log(user);
         return user;
     }
 };

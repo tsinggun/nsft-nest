@@ -8,7 +8,7 @@ export class UserService {
 
   createUser(user: CreateUserDto): CreateUserDto {
     // return {'password'}
-    console.log(user);
+    // console.log(user);
     return user;
   }
 }
