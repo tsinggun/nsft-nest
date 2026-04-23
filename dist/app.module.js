@@ -12,7 +12,7 @@ const app_controller_1 = require("./app.controller");
 const app_service_1 = require("./app.service");
 const user_module_1 = require("./user/user.module");
 const transform_interceptor_1 = require("./common/interceptors/transform.interceptor");
-const http_exception_filter_1 = require("./common/exceptions/http-exception.filter");
+const http_exception_filter_1 = require("./common/filters/http-exception.filter");
 const core_1 = require("@nestjs/core");
 let AppModule = class AppModule {
 };
