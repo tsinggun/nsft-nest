@@ -7,12 +7,11 @@ import { CreateUserDto } from './user.dtc';
 export class UserController {
   constructor(private readonly userService: UserService) {}
   @Get('/list')
-  getUserList(): string {
+  getUserList(): CreateUserDto[] {
     return this.userService.getUserList();
   }
 
   @Post('/create')
-  // @Raw()
   createUser(@Body() user: CreateUserDto): CreateUserDto {
     return this.userService.createUser(user);
   }
