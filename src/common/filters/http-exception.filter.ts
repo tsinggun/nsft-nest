@@ -36,4 +36,4 @@ import {
         msg: Array.isArray(message) ? message.join(', ') : message,
       });
     }
-}
+  }
